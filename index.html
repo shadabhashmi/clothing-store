@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Everyday clothing, streetwear and bulk apparel orders.">
+  <title>YOUR BRAND — Clothing for Every Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">EVERYDAY CLOTHING · RETAIL & BULK ORDERS · MESSAGE US ON WHATSAPP</div>
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="Home">YOUR<span>BRAND</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#shop">Shop</a><a href="#wholesale">Bulk Orders</a><a href="#about">Our Story</a>
+    </nav>
+    <button class="cart-button" id="open-cart" aria-label="Open shopping cart">Bag <span id="cart-count">0</span></button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THE EVERYDAY COLLECTION</p>
+        <h1>YOUR STYLE.<br><span>YOUR EVERY DAY.</span></h1>
+        <p>From easy tees and relaxed fits to layers for cooler days. Explore everyday clothing for your own rotation or your store.</p>
+        <div class="hero-actions"><a class="button button-light" href="#shop">SHOP COLLECTION <span>↗</span></a><a class="text-link" href="#wholesale">Buying in bulk? →</a></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Abstract editorial clothing graphic">
+        <div class="art-label">COLLECTION 001<br>DAILY ESSENTIALS</div><div class="art-circle"></div><div class="art-word">WEAR<br>YOUR<br>WAY.</div>
+      </div>
+    </section>
+    <section class="ticker"><span>EVERYDAY ESSENTIALS</span><span>✳</span><span>RETAIL & WHOLESALE</span><span>✳</span><span>FIND YOUR FIT</span><span>✳</span></section>
+    <section class="shop-section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR FIT</p><h2>SHOP ALL CLOTHING</h2></div><p>Demo items for now. Add your own photos, prices, sizes and stock before launch.</p></div>
+      <div class="filters" role="group" aria-label="Filter products">
+        <button class="filter active" data-category="All">All</button>
+        <button class="filter" data-category="T-Shirts">T-shirts</button>
+        <button class="filter" data-category="Hoodies">Hoodies</button>
+        <button class="filter" data-category="Sweatshirts">Sweatshirts</button>
+        <button class="filter" data-category="Bottoms">Joggers & track pants</button>
+        <button class="filter" data-category="Sets">Tracksuits & cord sets</button>
+        <button class="filter" data-category="Shirts">Shirts</button>
+        <button class="filter" data-category="Jackets">Jackets</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+    <section class="wholesale" id="wholesale">
+      <div><p class="eyebrow">FOR RETAILERS, TEAMS & RESELLERS</p><h2>NEED MORE<br>THAN ONE?</h2></div>
+      <div><p>Ask about bulk pricing, size mixes, available colors and minimum order quantities. We’ll confirm availability and delivery before you pay.</p><a class="button button-dark" id="bulk-link" href="#" target="_blank" rel="noopener">ENQUIRE ABOUT BULK ORDERS ↗</a><small>Bulk prices and minimum quantities must be confirmed by the store.</small></div>
+    </section>
+    <section class="about" id="about"><p class="eyebrow">OUR POINT OF VIEW</p><h2>GOOD CLOTHES.<br><span>REAL LIFE.</span></h2><p>A clothing label in the making, bringing together everyday staples and statement pieces. Our collection and brand identity will grow with your business.</p></section>
+  </main>
+  <footer><a class="logo" href="#">YOUR<span>BRAND</span></a><p>© <span id="year"></span> YOUR BRAND. All rights reserved.</p><div><a href="mailto:hello@example.com">Contact</a><a href="#wholesale">Wholesale</a><a href="#shop">Shop</a></div></footer>
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-head"><h2>YOUR BAG</h2><button id="close-cart" aria-label="Close cart">✕</button></div>
+    <div id="cart-items" class="cart-items"><p class="empty-cart">Your bag is empty.</p></div>
+    <div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">₹0</strong></div><p class="cart-note">Shipping, stock and final payment are confirmed with the store.</p><button class="button button-dark full" id="checkout-whatsapp">ORDER ON WHATSAPP ↗</button><button class="button button-outline full" id="online-checkout">ONLINE PAYMENT — NEXT SETUP STEP</button></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
