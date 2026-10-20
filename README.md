@@ -1,30 +1,26 @@
-# Masha Store — Colorful Clothing Store
+# Masha Store — Custom Storefront
 
-This is a responsive static storefront starter configured for a mixed clothing catalog and both retail + wholesale enquiries.
+## Included
+- Graphic/printed fashion design direction with pink, lime, blue and bold typography
+- Mixed clothing categories: T-shirts, hoodies, sweatshirts, joggers/track pants, tracksuits/cord sets, shirts and jackets
+- Size selectors and cart
+- WhatsApp order request and bulk enquiry placeholders
+- Online payment button disabled until secure checkout is implemented
 
-## Current features
-- Homepage, shop grid and category filters for T-shirts, hoodies, sweatshirts, joggers/track pants, tracksuits/cord sets, shirts and jackets
-- Size selection on each demo product
-- Shopping cart with quantities and subtotal
-- WhatsApp order-message generation
-- Wholesale enquiry link
-- Mobile-responsive layout
+## Important before accepting real orders
+All displayed products and prices are DEMO examples. Replace them with accurate inventory, prices, photos and sizes. Add your WhatsApp number in `app.js` (`STORE.whatsappNumber`) as digits only, including country code. Do not publish until contact details, shipping/returns policies and product information are accurate.
 
-## Next setup step
-1. Extract this ZIP.
-2. Open `index.html` in your browser to preview the storefront.
-3. Open `app.js` in a text editor.
-4. Replace `STORE.brand` with your chosen name when ready.
-5. Replace `STORE.whatsappNumber` with your WhatsApp number, digits only, including country code (India: `91` + mobile number).
-6. Edit the `products` list: real names, prices, categories, colors and sizes.
-7. Replace the abstract CSS garment placeholders with real product images before sharing publicly.
+## Add your product photos
+1. Create a folder named `images` in the repository.
+2. Upload product photos into that folder, e.g. `graphic-tee.jpg`.
+3. In `app.js`, set the corresponding product's `image` field to `images/graphic-tee.jpg`.
+4. Commit the changes. GitHub Pages will redeploy.
 
-## Free hosting
-1. Sign in at https://github.com/ and create a public repository, e.g. `clothing-store`.
-2. Upload `index.html`, `styles.css`, `app.js` and `README.md` at the repository root.
-3. Go to **Settings → Pages**.
-4. Select **Deploy from a branch**, choose branch `main` and folder `/(root)`, then Save.
-5. Open the published URL shown in the Pages settings after deployment finishes.
+## Publish updated files
+1. Open your `clothing-store` repository on GitHub.
+2. Click **Add file → Upload files**.
+3. Upload the new `index.html`, `styles.css`, `app.js` and `README.md` from this folder to the repository root, replacing the existing versions.
+4. Commit changes.
+5. Wait for the Pages build to complete, then refresh the website with Ctrl+F5.
 
-## Important
-This is a front-end prototype. WhatsApp order messages can be prepared after you add your number, but this does not automatically reserve inventory or securely store customer orders. The online payment button is a placeholder. GitHub Pages cannot run server-side code. Before accepting online payments, connect a reputable payment provider and a backend/serverless function; never expose payment secret keys in public JavaScript. Provider charges, identity checks, free-tier limits and legal/tax requirements may apply.
+Online payments are intentionally disabled. GitHub Pages is static hosting; secure payments require a reputable provider plus backend/serverless handling. Never put payment secret keys in public JavaScript.
