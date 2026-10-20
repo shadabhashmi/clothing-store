@@ -1,6 +1,6 @@
 // STORE SETTINGS — replace these before publishing
 const STORE = {
-  brand: "YOUR BRAND",
+  brand: "Masha Store",
   whatsappNumber: "91XXXXXXXXXX", // digits only: country code + number
   currency: "INR",
   bulkMinimumNote: "Bulk quantities and pricing confirmed by WhatsApp"
@@ -8,14 +8,14 @@ const STORE = {
 
 // DEMO CATALOG. Replace these with real products, prices, colors and sizes.
 const products = [
-  {id:1,name:"Essential Oversized Tee",category:"T-Shirts",price:499,color:"#b8b5aa",label:"BESTSELLER",sizes:["S","M","L","XL"]},
-  {id:2,name:"Everyday Heavy Hoodie",category:"Hoodies",price:1199,color:"#8f918c",label:"NEW",sizes:["S","M","L","XL"]},
-  {id:3,name:"Classic Crew Sweatshirt",category:"Sweatshirts",price:899,color:"#d0c7b8",label:"",sizes:["S","M","L","XL"]},
-  {id:4,name:"Utility Track Pants",category:"Bottoms",price:799,color:"#77796f",label:"",sizes:["S","M","L","XL"]},
-  {id:5,name:"Relaxed Cord Set",category:"Sets",price:1499,color:"#c6c4bd",label:"SET",sizes:["S","M","L","XL"]},
-  {id:6,name:"Everyday Casual Shirt",category:"Shirts",price:899,color:"#b5a69a",label:"",sizes:["S","M","L","XL"]},
-  {id:7,name:"Lightweight Street Jacket",category:"Jackets",price:1599,color:"#9a9b91",label:"",sizes:["S","M","L","XL"]},
-  {id:8,name:"Graphic Street Tee",category:"T-Shirts",price:599,color:"#d6d1c5",label:"LIMITED",sizes:["S","M","L","XL"]}
+  {id:1,name:"Masha Essential Oversized Tee",category:"T-Shirts",price:499,color:"#b8b5aa",label:"BESTSELLER",sizes:["S","M","L","XL"]},
+  {id:2,name:"Masha Everyday Hoodie",category:"Hoodies",price:1199,color:"#8f918c",label:"NEW",sizes:["S","M","L","XL"]},
+  {id:3,name:"Masha Crew Sweatshirt",category:"Sweatshirts",price:899,color:"#d0c7b8",label:"",sizes:["S","M","L","XL"]},
+  {id:4,name:"Masha Utility Track Pants",category:"Bottoms",price:799,color:"#77796f",label:"",sizes:["S","M","L","XL"]},
+  {id:5,name:"Masha Relaxed Cord Set",category:"Sets",price:1499,color:"#c6c4bd",label:"SET",sizes:["S","M","L","XL"]},
+  {id:6,name:"Masha Casual Shirt",category:"Shirts",price:899,color:"#b5a69a",label:"",sizes:["S","M","L","XL"]},
+  {id:7,name:"Masha Street Jacket",category:"Jackets",price:1599,color:"#9a9b91",label:"",sizes:["S","M","L","XL"]},
+  {id:8,name:"Masha Graphic Street Tee",category:"T-Shirts",price:599,color:"#d6d1c5",label:"LIMITED",sizes:["S","M","L","XL"]}
 ];
 let cart = [];
 let activeCategory = "All";

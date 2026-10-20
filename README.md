@@ -1,4 +1,4 @@
-# Custom Clothing Store Starter — Mixed Collection
+# Masha Store — Colorful Clothing Store
 
 This is a responsive static storefront starter configured for a mixed clothing catalog and both retail + wholesale enquiries.
 
