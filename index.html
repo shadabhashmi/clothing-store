@@ -1,59 +1,26 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Masha Store — expressive everyday clothing, graphic tees, hoodies and streetwear. Retail and bulk enquiries welcome.">
-  <title>Masha Store — Wear Your Mood</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="announcement">MASHA STORE ✳ GRAPHIC CLOTHING FOR EVERYDAY ✳ RETAIL & BULK ENQUIRIES</div>
-  <header class="site-header">
-    <a class="logo" href="#" aria-label="Masha Store home"><span class="logo-mark">M</span><span>MASHA<span class="logo-light"> STORE</span></span></a>
-    <nav aria-label="Main navigation"><a href="#shop">Shop</a><a href="#story">Our vibe</a><a href="#bulk">Bulk orders</a></nav>
-    <button class="cart-button" id="open-cart" aria-label="Open shopping bag">BAG <span id="cart-count">0</span></button>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="dot"></span> YOUR MOOD. YOUR UNIFORM.</p>
-        <h1>WEAR<br>YOUR <span>MOOD.</span></h1>
-        <p>Graphic energy, everyday comfort. Find your next favourite tee, hoodie, layer or relaxed-fit essential.</p>
-        <div class="hero-actions"><a class="button button-light" href="#shop">EXPLORE THE DROP <span>↗</span></a><a class="text-link" href="#bulk">Buying in bulk? →</a></div>
-        <div class="hero-stats"><span><b>01</b> EVERYDAY FITS</span><span><b>✳</b> GRAPHIC ENERGY</span></div>
-      </div>
-      <div class="hero-art" aria-label="Graphic fashion artwork">
-        <div class="sticker sticker-top">NOT<br>HERE TO<br>BLEND IN.</div>
-        <div class="shape shape-pink"></div><div class="shape shape-lime"></div><div class="shape shape-blue"></div>
-        <div class="hero-garment"><div class="garment-neck"></div><span>MS<br>ORIGINAL</span></div>
-        <div class="art-caption">MASHA STORE / DROP 001</div>
-      </div>
-    </section>
-    <div class="ticker"><span>FIND YOUR FIT</span><b>✳</b><span>MAKE IT YOURS</span><b>✳</b><span>GRAPHIC ENERGY</span><b>✳</b><span>FIND YOUR FIT</span></div>
-    <section class="shop-section" id="shop">
-      <div class="section-heading"><div><p class="eyebrow">THE CURRENT LINEUP</p><h2>SHOP THE <span>DROP.</span></h2></div><p>Demo products for layout preview. Replace them with your real product details and photos before taking orders.</p></div>
-      <div class="filters" role="group" aria-label="Filter products">
-        <button class="filter active" data-category="All">ALL PIECES</button><button class="filter" data-category="T-Shirts">T-SHIRTS</button><button class="filter" data-category="Hoodies">HOODIES</button><button class="filter" data-category="Sweatshirts">SWEATSHIRTS</button><button class="filter" data-category="Bottoms">JOGGERS & TRACK PANTS</button><button class="filter" data-category="Sets">TRACKSUITS & CORD SETS</button><button class="filter" data-category="Shirts">SHIRTS</button><button class="filter" data-category="Jackets">JACKETS</button>
-      </div>
-      <div class="product-grid" id="product-grid"></div>
-    </section>
-    <section class="bulk" id="bulk">
-      <div class="bulk-art"><span>YOUR<br>STORE.<br>YOUR<br>DROP.</span><b>MS ✳</b></div>
-      <div class="bulk-copy"><p class="eyebrow">FOR RESELLERS, STORES & TEAMS</p><h2>MORE PIECES.<br><span>ONE MESSAGE.</span></h2><p>Need bulk quantities, mixed sizes or wholesale rates? Send us what you're looking for. We'll confirm available stock, minimum order quantity, pricing and delivery before payment.</p><a class="button button-dark" id="bulk-link" href="#" target="_blank" rel="noopener">GET BULK PRICING ON WHATSAPP ↗</a><small>Bulk rates are confirmed individually. No discount is promised until confirmed.</small></div>
-    </section>
-    <section class="story" id="story"><p class="eyebrow">THE MASHA VIBE</p><h2>NOT JUST AN OUTFIT.<br><span>IT'S YOUR ENERGY.</span></h2><p>Masha Store brings together graphic pieces and everyday clothing for your own rotation. This is your space to mix comfort with character.</p><div class="story-tags"><span>GRAPHIC TEES</span><span>RELAXED FITS</span><span>EVERYDAY LAYERS</span><span>RETAIL + BULK</span></div></section>
-  </main>
-  <footer><a class="logo" href="#"><span class="logo-mark">M</span><span>MASHA<span class="logo-light"> STORE</span></span></a><p>© <span id="year"></span> MASHA STORE. All rights reserved.</p><div><a href="mailto:hello@example.com">Contact</a><a href="#bulk">Bulk enquiries</a><a href="#shop">Shop</a></div></footer>
-  <div class="cart-backdrop" id="cart-backdrop"></div>
-  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping bag" aria-hidden="true">
-    <div class="cart-head"><h2>YOUR BAG</h2><button id="close-cart" aria-label="Close bag">✕</button></div>
-    <div id="cart-items" class="cart-items"><p class="empty-cart">Your bag is waiting for its first pick.</p></div>
-    <div class="cart-bottom"><div class="subtotal"><span>Subtotal (demo prices)</span><strong id="subtotal">₹0</strong></div><p class="cart-note">WhatsApp orders are requests only until the store confirms stock, shipping and payment. Online payment is disabled.</p><button class="button button-dark full" id="checkout-whatsapp">SEND ORDER REQUEST ↗</button><button class="button button-outline full" id="online-checkout" disabled>ONLINE PAYMENT — NOT ENABLED</button></div>
-  </aside>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="app.js"></script>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Masha Store — graphic fashion and everyday clothing. Retail and wholesale enquiries welcome.">
+<title>Masha Store — Wear Your Mood</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<div class="announcement">MASHA STORE ✳ GRAPHIC CLOTHING FOR EVERYDAY ✳ RETAIL & BULK ENQUIRIES</div>
+<header class="site-header"><a class="logo" href="#"><span class="logo-mark">M</span><span>MASHA <i>STORE</i></span></a><nav><a href="#shop">Shop</a><a href="#story">Our vibe</a><a href="#bulk">Bulk orders</a></nav><button class="cart-button" id="open-cart">BAG <span id="cart-count">0</span></button></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">✳ YOUR MOOD. YOUR UNIFORM.</p><h1>WEAR<br>YOUR <em>MOOD.</em></h1><p>Graphic energy, everyday comfort. Find your next favourite tee, hoodie, layer or relaxed-fit essential.</p><div class="hero-actions"><a class="button button-lime" href="#shop">EXPLORE THE DROP ↗</a><a class="text-link" href="#bulk">Buying in bulk? →</a></div><div class="hero-stats"><span>✳ EVERYDAY FITS</span><span>✳ GRAPHIC ENERGY</span></div></div>
+<div class="hero-art"><div class="sticker">NOT HERE<br>TO BLEND IN</div><div class="shape pink"></div><div class="shape lime"></div><div class="shape blue"></div><div class="shirt-art"><span>MS<br>ORIGINAL</span></div><small>MASHA STORE / DROP 001</small></div></section>
+<section class="carousel-section" aria-label="Featured collections"><div class="carousel-head"><div><p class="eyebrow">THE MASHA EDIT</p><h2>FRESH FITS. <em>NEW ENERGY.</em></h2></div><div class="carousel-controls"><button id="carousel-prev" aria-label="Previous slide">←</button><button id="carousel-next" aria-label="Next slide">→</button></div></div>
+<div class="carousel-window"><div class="carousel-track" id="carousel-track">
+<article class="slide slide-pink"><div><p>01 / GRAPHIC TEES</p><h3>MAKE YOUR<br>STATEMENT.</h3><a href="#shop" data-jump-category="T-Shirts">SHOP T-SHIRTS ↗</a></div><div class="slide-art tee-art">MS<br>GRAPHIC</div></article>
+<article class="slide slide-blue"><div><p>02 / LAYERS ON</p><h3>HOODIE WEATHER.<br>ANYTIME.</h3><a href="#shop" data-jump-category="Hoodies">SHOP HOODIES ↗</a></div><div class="slide-art hoodie-art">NO<br>OFF<br>MODE</div></article>
+<article class="slide slide-lime"><div><p>03 / BULK & WHOLESALE</p><h3>YOUR STORE.<br>OUR NEXT DROP.</h3><a href="#bulk">ASK FOR BULK PRICING ↗</a></div><div class="slide-burst">MS<br>✳</div></article>
+</div></div><div class="carousel-bottom"><div class="carousel-dots"><button class="carousel-dot active" data-slide="0" aria-label="Slide 1"></button><button class="carousel-dot" data-slide="1" aria-label="Slide 2"></button><button class="carousel-dot" data-slide="2" aria-label="Slide 3"></button></div><span id="carousel-count">01 / 03</span></div></section>
+<section class="trust-strip"><div><b>↗ SECURE CHECKOUT</b><small>Prepaid checkout coming soon</small></div><div><b>◎ SIZE HELP</b><small>Choose your fit before ordering</small></div><div><b>✳ RETAIL + BULK</b><small>Ask about availability</small></div><div><b>♡ NEED HELP?</b><small>Message us before ordering</small></div></section>
+<section class="shop-section" id="shop"><div class="section-heading"><div><p class="eyebrow">THE CURRENT LINEUP</p><h2>SHOP THE <em>DROP.</em></h2></div><p>Sample items and prices for preview. Replace them with your real products before accepting orders.</p></div><p class="prepaid-note">Online prepaid checkout is not enabled yet. No online payment will be collected on this website.</p>
+<div class="filters"><button class="filter active" data-category="All">ALL</button><button class="filter" data-category="T-Shirts">T-SHIRTS</button><button class="filter" data-category="Hoodies">HOODIES</button><button class="filter" data-category="Sweatshirts">SWEATSHIRTS</button><button class="filter" data-category="Bottoms">JOGGERS & TRACK PANTS</button><button class="filter" data-category="Sets">TRACKSUITS & CORD SETS</button><button class="filter" data-category="Shirts">SHIRTS</button><button class="filter" data-category="Jackets">JACKETS</button></div><div class="product-grid" id="product-grid"></div></section>
+<section class="bulk" id="bulk"><div class="bulk-art">YOUR<br>STORE.<br>YOUR<br>DROP.<b>MS ✳</b></div><div><p class="eyebrow">FOR RESELLERS, STORES & TEAMS</p><h2>MORE PIECES.<br><em>ONE MESSAGE.</em></h2><p>Need bulk quantities, mixed sizes or wholesale rates? Tell us what you're looking for. We'll confirm stock, minimum order quantity, pricing and delivery before payment.</p><a class="button button-dark" id="bulk-link" href="#">GET BULK PRICING ON WHATSAPP ↗</a><small>Bulk rates are confirmed individually. No discount is promised until confirmed.</small></div></section>
+<section class="story" id="story"><p class="eyebrow">THE MASHA VIBE</p><h2>NOT JUST AN OUTFIT.<br><em>IT'S YOUR ENERGY.</em></h2><p>Masha Store brings together graphic pieces and everyday clothing for your own rotation. Mix comfort with character.</p></section>
+</main><footer><a class="logo" href="#"><span class="logo-mark">M</span><span>MASHA <i>STORE</i></span></a><p>© <span id="year"></span> MASHA STORE. All rights reserved.</p><a href="#bulk">Bulk enquiries</a></footer>
+<div class="cart-backdrop" id="cart-backdrop"></div><aside class="cart-drawer" id="cart-drawer" aria-hidden="true"><div class="cart-head"><h2>YOUR BAG</h2><button id="close-cart">✕</button></div><div id="cart-items" class="cart-items"><p>Your bag is waiting for its first pick.</p></div><div class="cart-bottom"><div class="subtotal"><span>Indicative subtotal</span><strong id="subtotal">₹0</strong></div><p>Demo prices only. Confirm availability, shipping and payment with the store. Online payment is disabled.</p><button class="button button-dark full" id="checkout-whatsapp">SEND ORDER REQUEST ↗</button><button class="button full" disabled>ONLINE PAYMENT — NOT ENABLED</button></div></aside><div class="toast" id="toast"></div><script src="app.js"></script></body></html>

@@ -1,26 +1,19 @@
-# Masha Store — Custom Storefront
+# Masha Store — Mobile Responsive + Carousel Update
 
-## Included
-- Graphic/printed fashion design direction with pink, lime, blue and bold typography
-- Mixed clothing categories: T-shirts, hoodies, sweatshirts, joggers/track pants, tracksuits/cord sets, shirts and jackets
-- Size selectors and cart
-- WhatsApp order request and bulk enquiry placeholders
-- Online payment button disabled until secure checkout is implemented
+## What's included
+- Mobile-first responsive layout for phones, tablets and desktop
+- Featured carousel with arrows, dots, touch swipe and auto rotation
+- Campaign slides for graphic tees, hoodies and wholesale enquiries
+- Product categories, size selectors and demo cart
+- WhatsApp enquiry placeholder
+- Online payment remains disabled
 
-## Important before accepting real orders
-All displayed products and prices are DEMO examples. Replace them with accurate inventory, prices, photos and sizes. Add your WhatsApp number in `app.js` (`STORE.whatsappNumber`) as digits only, including country code. Do not publish until contact details, shipping/returns policies and product information are accurate.
+## Publish the update
+1. Extract this ZIP.
+2. Open your GitHub repository `shadabhashmi/clothing-store`.
+3. Choose **Add file → Upload files**.
+4. Upload `index.html`, `styles.css`, `app.js`, and `README.md` to the repository root, replacing the old versions.
+5. Commit changes. Wait for GitHub Pages to deploy, then refresh the site with Ctrl+F5.
 
-## Add your product photos
-1. Create a folder named `images` in the repository.
-2. Upload product photos into that folder, e.g. `graphic-tee.jpg`.
-3. In `app.js`, set the corresponding product's `image` field to `images/graphic-tee.jpg`.
-4. Commit the changes. GitHub Pages will redeploy.
-
-## Publish updated files
-1. Open your `clothing-store` repository on GitHub.
-2. Click **Add file → Upload files**.
-3. Upload the new `index.html`, `styles.css`, `app.js` and `README.md` from this folder to the repository root, replacing the existing versions.
-4. Commit changes.
-5. Wait for the Pages build to complete, then refresh the website with Ctrl+F5.
-
-Online payments are intentionally disabled. GitHub Pages is static hosting; secure payments require a reputable provider plus backend/serverless handling. Never put payment secret keys in public JavaScript.
+## Before taking real orders
+Product names and prices are demo examples. Replace them with actual stock and pricing. Add your WhatsApp number in `app.js`. Do not promise discounts, shipping or returns until confirmed. Online payments are intentionally disabled; a secure provider and backend are needed before enabling prepaid checkout. Never place payment secret keys in public JavaScript.
